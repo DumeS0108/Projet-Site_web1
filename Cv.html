@@ -12,9 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Ace</title>
-
-
+  <title>Mon cv</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
@@ -29,6 +27,8 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  
 </head>
 
 <body class="sub_page">
@@ -52,13 +52,13 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="A-propos.html"> A-propos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
+                  <a class="nav-link" href="contact.html">Me contacter</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="Cv.html">Cv</a>
@@ -76,145 +76,124 @@
   </div>
 
   <!-- about section -->
-
-  <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .header, .section {
-            margin-bottom: 20px;
-        }
-        .header {
-            text-align: center;
-        }
-        .header img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-        }
-        .contact-info {
-            margin-top: 10px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .section-title {
-            color: #0056b3;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 1.3em;
-        }
-        .skills, .experience, .education {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li, .experience li, .education li {
-            margin-bottom: 10px;
-        }
-        .job-title, .degree {
-            font-weight: bold;
-            color: #0056b3;
-        }
-        .dates {
-            color: #666;
-            font-size: 0.9em;
-        }
-    </style>
+  <style>
+    h1, h2, h3 {
+        color: #333;
+    }
+    .header, .section {
+        margin-bottom: 20px;
+    }
+    .header {
+        text-align: center;
+    }
+    .header img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .contact-info {
+        margin-top: 10px;
+    }
+    .contact-info p {
+        margin: 5px 0;
+    }
+    .section-title {
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 1.3em;
+    }
+    .skills, .experience, .education {
+        list-style-type: none;
+        padding: 0;
+    }
+    .skills li, .experience li, .education li {
+        margin-bottom: 10px;
+    }
+    .job-title, .degree {
+        font-weight: bold;
+        color: #0056b3;
+    }
+    .dates {
+        color: #666;
+        font-size: 0.9em;
+    }
+</style>
 </head>
 <body>
 
 <div class="container">
-    <div class="header">
-        <img src="photo.jpg" alt="Photo de profil">
-        <h1>Nom Prénom</h1>
-        <div class="contact-info">
-            <p>Email : monemail@example.com</p>
-            <p>Téléphone : +33 6 12 34 56 78</p>
-            <p>Adresse : Ville, Pays</p>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Profil</h2>
-        <p>Passionné par le développement web avec une expérience en HTML, CSS et JavaScript. Motivé par les défis techniques et la résolution de problèmes complexes.</p>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Compétences</h2>
-        <ul class="skills">
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>React / Vue.js</li>
-            <li>Git / GitHub</li>
-            <li>Gestion de projet Agile</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Expérience Professionnelle</h2>
-        <ul class="experience">
-            <li>
-                <span class="job-title">Développeur Web</span> - Entreprise XYZ
-                <span class="dates">(Janvier 2020 - Présent)</span>
-                <p>Développement de fonctionnalités pour une application web en utilisant JavaScript et React. Optimisation des performances et correction de bugs.</p>
-            </li>
-            <li>
-                <span class="job-title">Stagiaire Développement</span> - Entreprise ABC
-                <span class="dates">(Juin 2019 - Décembre 2019)</span>
-                <p>Assistance dans la création de sites web en HTML et CSS. Conception et réalisation de maquettes pour des clients.</p>
-            </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Formation</h2>
-        <ul class="education">
-            <li>
-                <span class="degree">Licence en Informatique</span> - Université de la Ville
-                <span class="dates">(2016 - 2019)</span>
-            </li>
-            <li>
-                <span class="degree">Baccalauréat Scientifique</span> - Lycée Général
-                <span class="dates">(2013 - 2016)</span>
-            </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Langues</h2>
-        <ul class="skills">
-            <li>Français : Langue maternelle</li>
-            <li>Anglais : Courant</li>
-            <li>Espagnol : Intermédiaire</li>
-        </ul>
+<div class="header">
+    <img src="https://i.imgur.com/plgdejN.png" alt="Photo de profil">
+    <h1>Dume Sacha</h1>
+    <div class="contact-info">
+        <p>Email : dumesacha@gmail.com</p>
+        <p>Téléphone : +33 6 46 28 89 99</p>
+        <p>Adresse : Saint-Quentin, France</p>
     </div>
 </div>
 
-</body>
-</html>
-   <!-- end about section -->
+<div class="section">
+    <h2 class="section-title">Profil</h2>
+    <p>Photographe passionné et créatif, avec un œil aiguisé pour les détails et la composition. Fort d'une solide expérience en photographie de portrait, paysage et événementiel, je cherche constamment à capturer des moments authentiques et à raconter des histoires visuelles. Maîtrise des techniques de post-production et des outils comme Lightroom et Photoshop. Je m'investis pleinement dans chaque projet pour offrir des images qui résonnent et inspirent.</p>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Compétences</h2>
+    <ul class="skills">
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git / GitHub</li>
+        <li>Gestion de projet Agile</li>
+        <li>Photoshop</li>
+        <li>Lightroom</li>
+        <li>Réglage photo</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Expérience Professionnelle</h2>
+    <ul class="experience">
+        <li>
+            <span class="job-title">Stage technicien hopital</span> - Hopital de Saint-Quentin
+            <span class="dates">(7 Fevrier 2022- 13 Fevrier 2022)</span>
+            <p>Stage de découverte au systeme informatique en touchant au serveur et application de l'hopital</p>
+        </li>
+        <li>
+            <span class="job-title">Shooting photo Match de basket</span> - Auto-entrepreneur
+            <span class="dates">1er match : (Dimanche 20 octobre 2024) 2e match : (samedi 27 octobre 2024)</span>
+            <p>Photo rélisé  lors de match de basket, shooting en mouvement avec des personnalité du monde du basket</p>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Formation</h2>
+    <ul class="education">
+        <li>
+            <span class="degree">Baccalauréat</span> - Lycée Pierre de La Ramée
+            <span class="dates">(2023 - 2024)</span>
+        </li>
+        <li>
+            <span class="degree">Formation photographe</span> - Formation internet
+            <span class="dates">(2023 - 2024)</span>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Langues</h2>
+    <ul class="skills">
+        <li>Français : Langue maternelle</li>
+        <li>Anglais : Intermédiaire</li>
+        <li>Espagnol : Intermédiaire</li>
+    </ul>
+</div>
+</div>
+  
+  <!-- end about section -->
 
   <!-- info section -->
   <section class="info_section layout_padding2">
